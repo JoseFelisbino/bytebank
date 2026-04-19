@@ -9,16 +9,22 @@ qualquer = 22;
 const lista: number[] = [];
 lista.push(13, 22);
 
+//Enum
+enum tipoTransacao {
+    DEPOSITO = "Depósito",
+    TRANSFERENCIA = "Transferência",
+    PAGAMENTO_BOLETO = "Pagamento de Boleto"
+}
+
 // Tipos personalizados (Type Alias)
 type Transacao = {
-    tipoTransacao: string;
+    tipoTransacao: tipoTransacao;
     data: Date;
     valor: number;
 }
 
-
 const novaTransacao: Transacao = {
-    tipoTransacao: "",
+    tipoTransacao: tipoTransacao.DEPOSITO,
     data: new Date(),
     valor:0
 }
