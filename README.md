@@ -6,9 +6,7 @@ Sistema simples de controle de transações financeiras desenvolvido com **TypeS
 
 ## 🚀 Acesse o projeto
 
-👉 [Clique aqui para acessar o projeto](#)
-
-> ⚠️ Substitua o `#` pelo link da aplicação (Vercel, Netlify, GitHub Pages, etc.)
+👉 [Clique aqui para acessar o projeto](https://bytebank-five.vercel.app/)
 
 ---
 
